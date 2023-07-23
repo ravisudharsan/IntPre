@@ -1,0 +1,5 @@
+package com.myworkings.entity;
+
+public class Student {
+
+}

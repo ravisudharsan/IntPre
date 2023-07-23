@@ -1,0 +1,7 @@
+package com.myworking.sync;
+
+public class FInalizeExample {
+	public static void main(String[] args) {
+		FinalizeExample example=new FinalizeExample();
+	}
+}

@@ -1,0 +1,14 @@
+package com.myworkings.inter;
+
+public interface Keyboard {
+	void noofkeys(int a);
+
+	default void show() {
+		System.out.println("Displayed all keys");
+	}
+
+	default void display() {
+		System.out.println("Displayed all keys");
+	}
+
+}

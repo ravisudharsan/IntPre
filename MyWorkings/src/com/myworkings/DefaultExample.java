@@ -1,0 +1,24 @@
+package com.myworkings;
+
+import java.awt.Desktop.Action;
+
+import com.myworkings.inter.Keyboard;
+
+public class DefaultExample implements Keyboard {
+	public void noofkeys(int a) {
+		System.out.println(a * a);
+	}
+
+	public void noofenter(int a) {
+		System.out.println(a * a);
+
+	}
+
+	public static void main(String[] args) {
+		DefaultExample defaultExample = new DefaultExample();
+		defaultExample.noofkeys(3);
+		defaultExample.noofenter(2);
+		Keyboard.action();
+	}
+
+}

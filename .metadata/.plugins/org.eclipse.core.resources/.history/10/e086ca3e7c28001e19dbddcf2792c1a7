@@ -1,0 +1,5 @@
+package com.myworking.exception;
+
+public class AgeTest {
+
+}

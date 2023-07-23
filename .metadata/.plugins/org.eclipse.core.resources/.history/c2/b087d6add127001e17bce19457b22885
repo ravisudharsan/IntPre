@@ -1,0 +1,41 @@
+package com.myworkings;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Optional;
+
+import com.myworkings.entity.Student;
+
+public class OptionalClassExample {
+	public static void main(String[] args) {
+		// Without Optional Class
+		String[] words = new String[10];
+		// String word = words[5].toLowerCase();
+		// System.out.print(word);
+
+		// After Implementing Optional class
+
+		Optional<String> checkNull = Optional.ofNullable(words[5]);
+		if (checkNull.isPresent()) {
+			String word1 = words[5].toLowerCase();
+			System.out.print(word1);
+		} else {
+			System.out.println("word is null");
+
+		}
+
+		Student st1 = new Student(1, "Sachin", "BE");
+		Student st2 = new Student(2, "Dravid", null);
+		Student st3 = new Student(0, null, null);
+
+		ArrayList<Student> arrayList = new ArrayList<Student>();
+		arrayList.add(st1);
+		arrayList.add(st2);
+		arrayList.add(st3);
+
+		for (int i = 0; i < arrayList.size(); i++) {
+			System.out.println(arrayList.get(i).getQualification());
+		}
+
+	}
+}

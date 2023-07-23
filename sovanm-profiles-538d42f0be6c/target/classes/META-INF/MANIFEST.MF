@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sthujyi
+Build-Jdk: 16.0.1
+Implementation-Title: profiles
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.sovanm
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/profiles
+Created-By: Maven Integration for Eclipse
+

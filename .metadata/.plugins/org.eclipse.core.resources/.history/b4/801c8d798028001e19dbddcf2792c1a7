@@ -1,0 +1,13 @@
+package com.myworkings;
+
+import com.myworkings.inter.Keyboard;
+
+public class DefaultExample implements Keyboard {
+public static void main(String[] args) {
+	
+}
+
+public void noofkeys(int a) {
+System.out.println(a*a);	
+}
+}

@@ -1,0 +1,13 @@
+package com.myworkings;
+
+import java.io.FileOutputStream;
+import java.io.Serializable;
+
+public class TransientExample implements Serializable {
+	int id = 78;
+	String name = "Ravi";
+
+	public static void main(String[] args) {
+		FileOutputStream fileOutputStream=new FileOutputStream();
+	}
+}

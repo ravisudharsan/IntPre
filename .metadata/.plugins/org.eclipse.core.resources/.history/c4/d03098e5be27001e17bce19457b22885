@@ -1,0 +1,16 @@
+package com.myworkings;
+
+import com.myworkings.entity.Student;
+
+public class MultiObjComparator {
+	public static void main(String[] args) {
+		Student s1=new Student(4, "Ravi", "B.E");
+		Student s2=new Student(5, "Gambir", "BCA");
+		Student s=new Student(1, "Arun", "BBA");
+		Student s4=new Student(3, "Sachin", "BA");
+		Student s5=new Student(6, "Dravid", "BCOM");
+		Student s6=new Student(2, "Mohan", "MA");
+		
+
+	}
+}

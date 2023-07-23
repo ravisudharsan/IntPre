@@ -1,0 +1,5 @@
+package com.myworking.nonsync;
+
+public class Thread1 {
+
+}

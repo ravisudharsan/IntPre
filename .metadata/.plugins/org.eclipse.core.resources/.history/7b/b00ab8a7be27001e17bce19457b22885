@@ -1,0 +1,7 @@
+package com.myworkings;
+
+public class MultiObjComparator {
+	public static void main(String[] args) {
+
+	}
+}
