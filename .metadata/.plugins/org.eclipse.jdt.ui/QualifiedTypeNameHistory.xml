@@ -45,4 +45,13 @@
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Configurable"/>
+    <fullyQualifiedTypeName name="springfox.documentation.service.ApiInfo"/>
+    <fullyQualifiedTypeName name="springfox.documentation.service.Contact"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+    <fullyQualifiedTypeName name="io.swagger.annotations.Api"/>
+    <fullyQualifiedTypeName name="io.swagger.annotations.ApiOperation"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 </qualifiedTypeNameHistroy>

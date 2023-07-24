@@ -85,6 +85,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Final Touch\spring-boot-jpa-crud-example-master"/>
+			<item value="E:\Final Touch\spring-boot-swagger2"/>
+			<item value="E:\Final Touch\sovanm-profiles-538d42f0be6c"/>
 			<item value="E:\Final Touch\webclint-master"/>
 			<item value="E:\Final Touch\Students"/>
 			<item value="E:\Final Touch\spring-boot-upload-file-database"/>

@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Car;
 import com.example.demo.repo.CarRepo;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 @RestController
 public class CarController {
 
