@@ -1,0 +1,31 @@
+<p-toast [modal]="true"></p-toast>
+<div id="page">
+  <mat-horizontal-stepper [linear]="isLinear" #stepper (selectionChange)="stepChange($event)">
+    <br><mat-divider></mat-divider>
+    <!-- 1 -->
+    <mat-step>
+      <ng-template matStepLabel>Create New List</ng-template>
+      <div>
+        <button *ngIf="newProgram.name && newProgram.description" class="nxt-btn" mat-stroked-button color="primary" matStepperNext>Next</button>
+      </div>
+      <mat-form-field appearance="outline" id="pname">
+        <input [(ngModel)]="newProgram.name" matInput type="text" name="name" id="name" placeholder="List Name">
+      </mat-form-field><br>
+      <p-editor [(ngModel)]="newProgram.description" [style]="{'height':'320px'}"></p-editor>
+    </mat-step>
+
+<!-- 3 -->
+<mat-step>
+  <form>
+    <br>
+    <ng-template matStepLabel>Invite Users</ng-template>
+    <div>
+      <button class="nxt-btn" mat-stroked-button matStepperNext (click)="onSubmit()">Done</button>
+    </div><br>
+    <div class="forms f3">
+      
+    </div>
+  </form>
+</mat-step>
+</mat-horizontal-stepper>
+</div>
